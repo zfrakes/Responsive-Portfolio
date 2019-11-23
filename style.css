@@ -1,13 +1,14 @@
 body{
-    background-color:#B0E0E6
+    background-color:#B0E0E6;
+    
 }
 h1{
     
-     font-family:Georgia, 'Times New Roman', Times, serif
+     font-family:Georgia, 'Times New Roman', Times, serif;
 }
   
   h2{
-      color:#708090
+      color:#708090;
     
 
   }
@@ -25,6 +26,7 @@ h1{
   }
   .abtCont{
       margin-top: 30px;
+    
   }
   #about{
       margin-top: 5px;
@@ -54,12 +56,15 @@ h1{
     color:#708090;
   }
   
+  div.push {
+      margin-bottom: 10rem;
+  }
   footer {
       background: lightgrey;
-      position: absolute;
-      bottom: 0;
+      /* position: absolute;
+      bottom: 0; */
       width:100%;
-      border-top: 8px solid white;
+      border-top: 8px solid darkgrey;
       
   }
 
@@ -71,3 +76,9 @@ h1{
   #submit{
      float:right;
   }
+
+  /* @media screen and (max-width: 576px) {
+    div.push {
+      margin-bottom: 2rem;
+    }
+  } */
