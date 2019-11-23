@@ -53,14 +53,21 @@ h1{
     margin-top: 5px;
     color:#708090;
   }
-  .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 940%;
-    height: 50px;
-    background-color:#666666;
-    color: white;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
- }
+  
+  footer {
+      background: lightgrey;
+      position: absolute;
+      bottom: 0;
+      width:100%;
+      border-top: 8px solid white;
+      
+  }
+
+  .copy {  
+    padding: 10px;
+    border-top: honeydew;
+
+  }
+  #submit{
+     float:right;
+  }
